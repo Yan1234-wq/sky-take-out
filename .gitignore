@@ -1,0 +1,10 @@
+**/target/
+.idea
+*.iml
+*.class
+*Test.java
+**/test/
+# ================= 敏感配置 (忽略所有环境配置) =================
+src/main/resources/application.yml
+src/main/resources/application-*.yml
+src/main/resources/application-*.properties
