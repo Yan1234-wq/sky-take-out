@@ -115,7 +115,15 @@
             <groupId>org.apache.poi</groupId>
             <artifactId>poi-ooxml</artifactId>
         </dependency>
+
+<!--        BCrypt加密依赖-->
+        <dependency>
+            <groupId>org.springframework.security</groupId>
+            <artifactId>spring-security-crypto</artifactId>
+            <version>5.7.0</version>
+            </dependency>
     </dependencies>
+
 
     <build>
         <plugins>
