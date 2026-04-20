@@ -56,6 +56,10 @@
             <artifactId>spring-security-crypto</artifactId>
             <version>5.7.0</version>
         </dependency>
+        <dependency>
+            <groupId>org.aspectj</groupId>
+            <artifactId>aspectjrt</artifactId>
+        </dependency>
 
     </dependencies>
 </project>

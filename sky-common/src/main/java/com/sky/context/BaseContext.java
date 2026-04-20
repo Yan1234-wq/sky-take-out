@@ -2,7 +2,7 @@ package com.sky.context;
 
 public class BaseContext {
 
-    public static ThreadLocal<Long> threadLocal = new ThreadLocal<>();
+    public static ThreadLocal<Long> threadLocal = new ThreadLocal<>();// 保存当前登录用户的ID
 
     public static void setCurrentId(Long id) {
         threadLocal.set(id);
